@@ -1,7 +1,7 @@
 
-# GitHub Pages Webstite
+# GitHub Pages Website
 
-A university project created to learn how to use GiHub Pages.
+An university project created to learn how to use GitHub Pages.
 
 
 
