@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <div className="flex flex-col justify-center divide-y py-24 px-8 md:flex-row xl:py-44 sm:px-8 md:divide-y-0 md:divide-x items-center">
@@ -22,7 +24,9 @@ const About = () => {
       </div>
       <div className="flex flex-col space-y-5 pt-10 px-8 md:block sm:pl-8 lg:pl-10 xl:px-12">
         <div className="flex justify-center">
-          <img
+          <Image
+            width={256}
+            height={256}
             src="/images/kapibara.jpg"
             className="rounded-full w-36 sm:w-40 xl:w-64"
           />

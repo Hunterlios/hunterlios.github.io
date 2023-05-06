@@ -1,9 +1,12 @@
+import Image from "next/image";
+
 const Hero = () => {
   return (
-    //bg-[url('/images/kapibara_2.jpg')] bg-no-repeat bg-top bg-cover flex flex-col justify-end
     <div className="w-full min-h-screen relative flex flex-col justify-end">
-      <img
+      <Image
         src="/images/kapibara_2.jpg"
+        width={1920}
+        height={1080}
         className="h-full md:h-[95%] w-full object-cover absolute bottom-0"
       />
       <div className="w-full h-full absolute top-0 bg-opacity-60 bg-gradient-to-tr from-black/70 from-30% to-transparent" />

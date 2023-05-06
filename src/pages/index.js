@@ -1,4 +1,4 @@
-import { Hero, About, Navbar } from "../components/componentsfile";
+import { Hero, About, Navbar } from "../components";
 
 export default function Home() {
   return (
