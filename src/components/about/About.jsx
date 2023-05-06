@@ -1,9 +1,11 @@
 const About = () => {
   return (
-    <div className="flex pt-48 pb-48 pl-32 divide-x items-center">
-      <div className="space-y-4 leading-tight pr-20">
-        <h1 className="text-36px font-medium">What is a capybara?</h1>
-        <p className="text-32px font-thin">
+    <div className="flex flex-col justify-center divide-y py-24 px-8 md:flex-row xl:py-44 sm:px-8 md:divide-y-0 md:divide-x items-center">
+      <div className="sm:pr-8 space-y-4 pb-10">
+        <h1 className="text-2xl sm:text-3xl lg:text-32px font-medium">
+          What is a capybara?
+        </h1>
+        <p className="font-thin text-base leading-tight sm:text-xl sm:leading-tight lg:text-2xl lg:leading-tight xl:text-32px xl:leading-tight">
           A capybara is a semi-aquatic mammal that is native to South America.
           It is the largest rodent in the world, with adults typically weighing
           between 35 and 66 kilograms (77 to 146 pounds). Capybaras are well
@@ -18,30 +20,41 @@ const About = () => {
           preserve these unique and remarkable animals for generations to come.
         </p>
       </div>
-      <div className="space-y-5 pl-32 pr-32">
-        <div className="w-64">
+      <div className="flex flex-col space-y-5 pt-10 px-8 md:block sm:pl-8 lg:pl-10 xl:px-12">
+        <div className="flex justify-center">
           <img
             src="/images/kapibara.jpg"
-            alt="kapibara"
-            className="rounded-full"
+            className="rounded-full w-36 sm:w-40 xl:w-64"
           />
         </div>
 
-        <div className="text-24px w-full">
-          <h2 className="font-medium">TYPE</h2>
-          <p className="font-light">Mammals</p>
-        </div>
-        <div className="text-24px w-full">
-          <h2 className="font-medium">FOUND IN</h2>
-          <p className="font-light">South America</p>
-        </div>
-        <div className="text-24px w-full">
-          <h2 className="font-medium">FACT</h2>
-          <p className="font-light">
-            Capybaras occasionally eat their own feces to obtain essential
-            nutrients. This behavior is called coprophagy and is not uncommon in
-            herbivorous animals.
-          </p>
+        <div className="space-y-5 text-center md:text-left">
+          <div>
+            <h2 className="font-medium text-lg sm:text-lg xl:text-24px">
+              TYPE
+            </h2>
+            <p className="font-light text-base sm:text-base xl:text-20px">
+              Mammals
+            </p>
+          </div>
+          <div>
+            <h2 className="font-medium text-lg sm:text-lg xl:text-24px">
+              FOUND IN
+            </h2>
+            <p className="font-light text-base sm:text-base xl:text-20px">
+              South America
+            </p>
+          </div>
+          <div>
+            <h2 className="font-medium text-lg sm:text-lg xl:text-24px">
+              FACT
+            </h2>
+            <p className="font-light text-base sm:text-base xl:text-20px">
+              Capybaras occasionally eat their own feces to obtain essential
+              nutrients. This behavior is called coprophagy and is not uncommon
+              in herbivorous animals.
+            </p>
+          </div>
         </div>
       </div>
     </div>
