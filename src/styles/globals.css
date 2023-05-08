@@ -2,14 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply font-roboto bg-[#f9f9f9] h-full overflow-x-hidden;
-}
+@layer base {
+  body {
+    @apply font-roboto bg-[#f9f9f9] h-full overflow-x-hidden;
+  }
 
-#__next {
-  @apply h-full;
-}
+  #__next {
+    @apply h-full;
+  }
 
-html {
-  @apply h-full;
+  html,
+  body {
+    @apply h-full scroll-smooth;
+  }
 }

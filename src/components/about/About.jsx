@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-center divide-y py-24 px-8 md:flex-row xl:py-44 sm:px-8 md:divide-y-0 md:divide-x items-center">
+    <div
+      id="about"
+      className="flex flex-col justify-center divide-y py-24 px-8 md:flex-row xl:py-44 sm:px-8 md:divide-y-0 md:divide-x items-center"
+    >
       <div className="sm:pr-8 space-y-4 pb-10">
         <h1 className="text-2xl sm:text-3xl lg:text-32px font-medium">
           What is a capybara?
