@@ -32,6 +32,7 @@ const About = () => {
             height={256}
             src="/images/kapibara.jpg"
             className="rounded-full w-36 sm:w-40 xl:w-64"
+            alt=""
           />
         </div>
 

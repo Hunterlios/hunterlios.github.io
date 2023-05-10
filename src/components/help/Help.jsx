@@ -12,6 +12,7 @@ const Help = () => {
         height={1080}
         priority={true}
         className="w-full h-[28rem] xl:h-[36rem] object-cover absolute"
+        alt=""
       />
       <div className="w-full h-[28rem] xl:h-[36rem] absolute bg-opacity-60 bg-gradient-to-tr from-black/70 from-20% to-transparent" />
       <div className="text-white z-10 space-y-4 text-left w-9/12 lg:px-20">

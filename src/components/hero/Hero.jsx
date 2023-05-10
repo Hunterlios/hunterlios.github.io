@@ -12,6 +12,7 @@ const Hero = () => {
         height={1080}
         priority={true}
         className="h-full md:h-[95%] w-full object-cover absolute bottom-0"
+        alt=""
       />
       <div className="w-full h-full absolute top-0 bg-opacity-60 bg-gradient-to-tr from-black/70 from-30% to-transparent" />
       <div className="text-white z-10 space-y-4 text-center px-6 py-10 my-6 sm:text-left sm:w-3/4 lg:w-3/4 xl:w-7/12 sm:pl-16 sm:py-16 lg:pl-32 lg:py-16">
