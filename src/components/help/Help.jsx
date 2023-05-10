@@ -25,7 +25,7 @@ const Help = () => {
           contribution can help fund research, education, and on-the-ground
           efforts to protect these amazing creatures. By supporting capybara
           conservation, you are helping to ensure the survival of one of the
-          world's most fascinating and unique animals. Thank you for your
+          world&apos;s most fascinating and unique animals. Thank you for your
           support!
         </p>
       </div>
