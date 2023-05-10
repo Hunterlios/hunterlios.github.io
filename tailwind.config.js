@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        contact_secondary: "#A9A9A9",
+      },
       fontFamily: {
         roboto: ["var(--font-roboto)"],
       },
